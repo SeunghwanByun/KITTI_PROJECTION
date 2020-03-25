@@ -30,17 +30,17 @@ using namespace cv;
 using namespace Eigen;
 
 # File Directories
-#define Training_Velodyne_Path "C:\\Users\\rappi\\OneDrive\\바탕 화면\\대학원\\연구\\Semantic Segmentation\\Image Preprocessing\\KITTI Datasets\\data_road_velodyne\\training\\velodyne\\"
-#define Testing_Velodyne_Path "C:\\Users\\rappi\\OneDrive\\바탕 화면\\대학원\\연구\\Semantic Segmentation\\Image Preprocessing\\KITTI Datasets\\data_road_velodyne\\testing\\velodyne\\"
+#define Training_Velodyne_Path "C:\\data_road_velodyne\\training\\velodyne\\path"
+#define Testing_Velodyne_Path "C:\\data_road_velodyne\\testing\\velodyne\\path"
 
-#define Training_Image_Path "C:\\Users\\rappi\\OneDrive\\바탕 화면\\대학원\\연구\\Semantic Segmentation\\Image Preprocessing\\KITTI Datasets\\data_road\\training\\image_2\\"
-#define Testing_Image_Path "C:\\Users\\rappi\\OneDrive\\바탕 화면\\대학원\\연구\\Semantic Segmentation\\Image Preprocessing\\KITTI Datasets\\data_road\\testing\\image_2\\"
+#define Training_Image_Path "C:\\data_road\\training\\image_2\\path"
+#define Testing_Image_Path "C:\\data_road\\testing\\image_2\\path"
 
-#define Training_Calibrate_Path "C:\\Users\\rappi\\OneDrive\\바탕 화면\\대학원\\연구\\Semantic Segmentation\\Image Preprocessing\\KITTI Datasets\\data_road\\training\\calib\\"
-#define Testing_Calibrate_Path "C:\\Users\\rappi\\OneDrive\\바탕 화면\\대학원\\연구\\Semantic Segmentation\\Image Preprocessing\\KITTI Datasets\\data_road\\testing\\calib\\"
+#define Training_Calibrate_Path "C:\\data_road\\training\\calib\\path"
+#define Testing_Calibrate_Path "C:\\data_road\\testing\\calib\\path"
 
-#define Save_Training_Projection_Image_Path "C:\\Users\\rappi\\OneDrive\\바탕 화면\\대학원\\연구\\Semantic Segmentation\\Image Preprocessing\\KITTI Datasets\\data_road\\training\\projection\\"
-#define Save_Testing_Projection_Image_Path "C:\\Users\\rappi\\OneDrive\\바탕 화면\\대학원\\연구\\Semantic Segmentation\\Image Preprocessing\\KITTI Datasets\\data_road\\testing\\projection\\"
+#define Save_Training_Projection_Image_Path "C:\\data_road\\training\\projection\\path"
+#define Save_Testing_Projection_Image_Path "C:\\data_road\\testing\\projection\\path"
 
 vector<string> list_dir(string path);
 vector<MatrixXf> Get_Homogeneous_Mat(string path, vector<string> files_calib);
