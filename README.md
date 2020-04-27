@@ -1,2 +1,3 @@
 # KITTI_PROJECTION
-Projection from 3D LiDAR point cloud to 2D Image. KITTI dataset provided by http://www.cvlibs.net/datasets/kitti/eval_road.php
+
+Describes the task of projecting a 2D image from a 3D LiDAR point cloud for road detection. The KITTI dataset used was provided [here](http://www.cvlibs.net/datasets/kitti/eval_road.php). The kitti data set provides parameters for multi senser calibration. I use only LiDAR sensor and camera sensor, so the parameters used to apply to the data set are the metrics p2_rect, r0_rect, and cam_to_vel. By making these three parameters into a matrix and multiplying them in series, you can get the projected coordinates on the image. Details are excerpted from the [paper](http://www.cvlibs.net/publications/Geiger2013IJRR.pdf).
