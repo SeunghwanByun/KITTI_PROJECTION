@@ -228,7 +228,7 @@ void Save_Color_Mapped_Points(string vel_path, string img_path, vector<string> f
 				zImage[offset + 1] = sImage[offset + 1];
 				zImage[offset + 2] = sImage[offset + 2];
 				
-        uint8_t b = sImage[offset + 0];
+       				uint8_t b = sImage[offset + 0];
 				uint8_t g = sImage[offset + 1];
 				uint8_t r = sImage[offset + 2];
 				uint32_t rgb1 = ((uint32_t)r << 16 | (uint32_t)g << 8 | (uint32_t)b);
